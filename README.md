@@ -7,8 +7,8 @@ The data was collected from the Faculty of Engineering and Faculty of Educationa
 https://www.canva.com/design/DAFc_G4R3cg/w_C9SMILGkNt25oWPgzbMg/view?utm_content=DAFc_G4R3cg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## Sample Output
-![image](https://user-images.githubusercontent.com/111746868/224552401-906db7fb-4257-4c83-9b37-3be6273f3670.png)
-![image](https://user-images.githubusercontent.com/111742763/224549320-016430b2-988a-4219-ba89-83691ed637ee.png)
+![image](https://user-images.githubusercontent.com/111742763/224556033-4bdf3830-aba4-4cab-9a68-696f2a59cd31.png)
+![image](https://user-images.githubusercontent.com/111742763/224556018-e254c2d4-60fa-4653-baf8-57f7db347af9.png)
 
 ## Contibutors
 * Abueva, Estrella L.
