@@ -81,7 +81,7 @@ namespace Team_G_BackPropagation
             nn.setInputs(12, Convert.ToDouble(grade.Text));
             nn.run();
 
-            output.Text = (((nn.getOuputData(0) * 45.7) / 19.15079) + 10.58).ToString();
+            output.Text = nn.getOuputData(0).ToString();
         }
 
         private void clear_Click(object sender, EventArgs e)
