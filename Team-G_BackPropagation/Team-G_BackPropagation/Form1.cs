@@ -78,15 +78,15 @@ namespace Team_G_BackPropagation
 
             var value = nn.getOuputData(0);
 
-            if (value == 0)
+            if (value == 0 || value < 0.33)
             {
                 output.Text = "Grade Category: BAD!\n" + nn.getOuputData(0).ToString();
             }
-            else if(value > 0 || value < 0.33)
+            else if(value == 0.33 || value < 0.66)
             {
                 output.Text = "Grade Category: GOOD!\n" + nn.getOuputData(0).ToString();
             }
-            else if(value > 0.33 || value < 0.66)
+            else if(value == 0.66 || value < 1)
             {
                 output.Text = "Grade Category: VERY GOOD!\n" + nn.getOuputData(0).ToString();
             }
