@@ -145,5 +145,15 @@ namespace Team_G_BackPropagation
         {
             fileName = openFileDialog1.FileName;
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
