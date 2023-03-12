@@ -58,7 +58,6 @@ namespace Team_G_BackPropagation
                     nn.setInputs(10, row.Inputs[10]);
                     nn.setInputs(11, row.Inputs[11]);
                     nn.setInputs(12, row.Inputs[12]);
-                    nn.setInputs(13, row.Inputs[13]);
                     nn.setDesiredOutput(0, row.Output);
                     nn.learn();
                 }
@@ -80,7 +79,6 @@ namespace Team_G_BackPropagation
             nn.setInputs(10, Convert.ToDouble(listen.Text));
             nn.setInputs(11, Convert.ToDouble(interest.Text));
             nn.setInputs(12, Convert.ToDouble(grade.Text));
-            nn.setInputs(13, Convert.ToDouble(wrist.Text));
             nn.run();
 
             output.Text = (((nn.getOuputData(0) * 45.7) / 19.15079) + 10.58).ToString();
@@ -102,7 +100,6 @@ namespace Team_G_BackPropagation
             listen.Text = "";
             interest.Text = "";
             grade.Text = "";
-            wrist.Text = "";
             output.Text = "";
         }
 
