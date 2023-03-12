@@ -32,32 +32,32 @@
             this.test = new System.Windows.Forms.Button();
             this.epochs = new System.Windows.Forms.TextBox();
             this.sex = new System.Windows.Forms.TextBox();
-            this.weight = new System.Windows.Forms.TextBox();
+            this.scholar = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.output = new System.Windows.Forms.Label();
-            this.height = new System.Windows.Forms.TextBox();
+            this.study = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.clear = new System.Windows.Forms.Button();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
-            this.neck = new System.Windows.Forms.TextBox();
-            this.chest = new System.Windows.Forms.TextBox();
+            this.nonsci = new System.Windows.Forms.TextBox();
+            this.sci = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.abdomen = new System.Windows.Forms.TextBox();
+            this.attendance = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.chooseFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.forearm = new System.Windows.Forms.TextBox();
-            this.biceps = new System.Windows.Forms.TextBox();
-            this.ankle = new System.Windows.Forms.TextBox();
-            this.knee = new System.Windows.Forms.TextBox();
-            this.thigh = new System.Windows.Forms.TextBox();
-            this.hip = new System.Windows.Forms.TextBox();
+            this.grade = new System.Windows.Forms.TextBox();
+            this.interest = new System.Windows.Forms.TextBox();
+            this.listen = new System.Windows.Forms.TextBox();
+            this.notes = new System.Windows.Forms.TextBox();
+            this.mid2 = new System.Windows.Forms.TextBox();
+            this.mid1 = new System.Windows.Forms.TextBox();
             this.age = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -72,7 +72,7 @@
             // 
             // train
             // 
-            this.train.Location = new System.Drawing.Point(220, 89);
+            this.train.Location = new System.Drawing.Point(334, 84);
             this.train.Name = "train";
             this.train.Size = new System.Drawing.Size(110, 40);
             this.train.TabIndex = 1;
@@ -82,7 +82,7 @@
             // 
             // test
             // 
-            this.test.Location = new System.Drawing.Point(220, 474);
+            this.test.Location = new System.Drawing.Point(334, 473);
             this.test.Name = "test";
             this.test.Size = new System.Drawing.Size(110, 40);
             this.test.TabIndex = 2;
@@ -92,7 +92,7 @@
             // 
             // epochs
             // 
-            this.epochs.Location = new System.Drawing.Point(44, 110);
+            this.epochs.Location = new System.Drawing.Point(158, 105);
             this.epochs.Name = "epochs";
             this.epochs.Size = new System.Drawing.Size(163, 20);
             this.epochs.TabIndex = 3;
@@ -106,19 +106,19 @@
             this.sex.TabIndex = 4;
             this.sex.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // weight
+            // scholar
             // 
-            this.weight.Location = new System.Drawing.Point(193, 212);
-            this.weight.Name = "weight";
-            this.weight.Size = new System.Drawing.Size(69, 20);
-            this.weight.TabIndex = 5;
-            this.weight.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.scholar.Location = new System.Drawing.Point(193, 212);
+            this.scholar.Name = "scholar";
+            this.scholar.Size = new System.Drawing.Size(69, 20);
+            this.scholar.TabIndex = 5;
+            this.scholar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(107, 47);
+            this.label1.Location = new System.Drawing.Point(221, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(178, 20);
             this.label1.TabIndex = 6;
@@ -127,7 +127,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(42, 89);
+            this.label2.Location = new System.Drawing.Point(156, 84);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(101, 13);
             this.label2.TabIndex = 7;
@@ -137,19 +137,19 @@
             // 
             this.output.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.output.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.output.Location = new System.Drawing.Point(44, 396);
+            this.output.Location = new System.Drawing.Point(158, 395);
             this.output.Name = "output";
             this.output.Size = new System.Drawing.Size(286, 61);
             this.output.TabIndex = 8;
             this.output.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // height
+            // study
             // 
-            this.height.Location = new System.Drawing.Point(193, 239);
-            this.height.Name = "height";
-            this.height.Size = new System.Drawing.Size(69, 20);
-            this.height.TabIndex = 9;
-            this.height.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.study.Location = new System.Drawing.Point(193, 239);
+            this.study.Name = "study";
+            this.study.Size = new System.Drawing.Size(69, 20);
+            this.study.TabIndex = 9;
+            this.study.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -174,15 +174,15 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(26, 243);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(156, 13);
+            this.label5.Size = new System.Drawing.Size(65, 13);
             this.label5.TabIndex = 14;
-            this.label5.Text = "Regualr artistic or Sport activity ";
+            this.label5.Text = "Study Hours";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(41, 366);
+            this.label8.Location = new System.Drawing.Point(155, 365);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(245, 18);
             this.label8.TabIndex = 17;
@@ -190,7 +190,7 @@
             // 
             // clear
             // 
-            this.clear.Location = new System.Drawing.Point(44, 473);
+            this.clear.Location = new System.Drawing.Point(158, 472);
             this.clear.Name = "clear";
             this.clear.Size = new System.Drawing.Size(110, 41);
             this.clear.TabIndex = 18;
@@ -203,56 +203,54 @@
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
             // 
-            // neck
+            // nonsci
             // 
-            this.neck.Location = new System.Drawing.Point(193, 267);
-            this.neck.Name = "neck";
-            this.neck.Size = new System.Drawing.Size(69, 20);
-            this.neck.TabIndex = 10;
-            this.neck.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nonsci.Location = new System.Drawing.Point(193, 267);
+            this.nonsci.Name = "nonsci";
+            this.nonsci.Size = new System.Drawing.Size(69, 20);
+            this.nonsci.TabIndex = 10;
+            this.nonsci.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // chest
+            // sci
             // 
-            this.chest.Location = new System.Drawing.Point(193, 293);
-            this.chest.Name = "chest";
-            this.chest.Size = new System.Drawing.Size(69, 20);
-            this.chest.TabIndex = 11;
-            this.chest.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.sci.Location = new System.Drawing.Point(193, 293);
+            this.sci.Name = "sci";
+            this.sci.Size = new System.Drawing.Size(69, 20);
+            this.sci.TabIndex = 11;
+            this.sci.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(26, 273);
+            this.label6.Location = new System.Drawing.Point(26, 260);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(33, 13);
+            this.label6.Size = new System.Drawing.Size(151, 30);
             this.label6.TabIndex = 15;
-            this.label6.Text = "Neck";
+            this.label6.Text = "Reading frequency (non-scientific books/journals)";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(26, 301);
+            this.label7.Location = new System.Drawing.Point(26, 291);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 13);
+            this.label7.Size = new System.Drawing.Size(151, 27);
             this.label7.TabIndex = 16;
-            this.label7.Text = "Chest";
+            this.label7.Text = "Reading frequency (scientific books/journals)";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(26, 328);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(52, 13);
+            this.label10.Size = new System.Drawing.Size(101, 13);
             this.label10.TabIndex = 19;
-            this.label10.Text = "Abdomen";
+            this.label10.Text = "Attendance to class";
             // 
-            // abdomen
+            // attendance
             // 
-            this.abdomen.Location = new System.Drawing.Point(193, 320);
-            this.abdomen.Name = "abdomen";
-            this.abdomen.Size = new System.Drawing.Size(69, 20);
-            this.abdomen.TabIndex = 21;
-            this.abdomen.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.attendance.Location = new System.Drawing.Point(193, 320);
+            this.attendance.Name = "attendance";
+            this.attendance.Size = new System.Drawing.Size(69, 20);
+            this.attendance.TabIndex = 21;
+            this.attendance.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // menuStrip1
             // 
@@ -278,53 +276,53 @@
             this.openFileDialog1.FileName = "openFileDialog1";
             this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
-            // forearm
+            // grade
             // 
-            this.forearm.Location = new System.Drawing.Point(382, 294);
-            this.forearm.Name = "forearm";
-            this.forearm.Size = new System.Drawing.Size(69, 20);
-            this.forearm.TabIndex = 30;
-            this.forearm.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.grade.Location = new System.Drawing.Point(505, 297);
+            this.grade.Name = "grade";
+            this.grade.Size = new System.Drawing.Size(69, 20);
+            this.grade.TabIndex = 30;
+            this.grade.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // biceps
+            // interest
             // 
-            this.biceps.Location = new System.Drawing.Point(382, 270);
-            this.biceps.Name = "biceps";
-            this.biceps.Size = new System.Drawing.Size(69, 20);
-            this.biceps.TabIndex = 29;
-            this.biceps.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.interest.Location = new System.Drawing.Point(505, 273);
+            this.interest.Name = "interest";
+            this.interest.Size = new System.Drawing.Size(69, 20);
+            this.interest.TabIndex = 29;
+            this.interest.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // ankle
+            // listen
             // 
-            this.ankle.Location = new System.Drawing.Point(382, 240);
-            this.ankle.Name = "ankle";
-            this.ankle.Size = new System.Drawing.Size(69, 20);
-            this.ankle.TabIndex = 28;
-            this.ankle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.listen.Location = new System.Drawing.Point(505, 243);
+            this.listen.Name = "listen";
+            this.listen.Size = new System.Drawing.Size(69, 20);
+            this.listen.TabIndex = 28;
+            this.listen.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // knee
+            // notes
             // 
-            this.knee.Location = new System.Drawing.Point(382, 214);
-            this.knee.Name = "knee";
-            this.knee.Size = new System.Drawing.Size(69, 20);
-            this.knee.TabIndex = 27;
-            this.knee.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.notes.Location = new System.Drawing.Point(505, 217);
+            this.notes.Name = "notes";
+            this.notes.Size = new System.Drawing.Size(69, 20);
+            this.notes.TabIndex = 27;
+            this.notes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // thigh
+            // mid2
             // 
-            this.thigh.Location = new System.Drawing.Point(382, 190);
-            this.thigh.Name = "thigh";
-            this.thigh.Size = new System.Drawing.Size(69, 20);
-            this.thigh.TabIndex = 26;
-            this.thigh.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.mid2.Location = new System.Drawing.Point(505, 193);
+            this.mid2.Name = "mid2";
+            this.mid2.Size = new System.Drawing.Size(69, 20);
+            this.mid2.TabIndex = 26;
+            this.mid2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // hip
+            // mid1
             // 
-            this.hip.Location = new System.Drawing.Point(382, 163);
-            this.hip.Name = "hip";
-            this.hip.Size = new System.Drawing.Size(69, 20);
-            this.hip.TabIndex = 25;
-            this.hip.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.mid1.Location = new System.Drawing.Point(505, 166);
+            this.mid1.Name = "mid1";
+            this.mid1.Size = new System.Drawing.Size(69, 20);
+            this.mid1.TabIndex = 25;
+            this.mid1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // age
             // 
@@ -336,57 +334,55 @@
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(311, 301);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(45, 13);
+            this.label11.Size = new System.Drawing.Size(176, 26);
             this.label11.TabIndex = 37;
-            this.label11.Text = "Forearm";
+            this.label11.Text = "Cumulative grade point average in the last semester ";
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(311, 275);
+            this.label12.Location = new System.Drawing.Point(311, 270);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(39, 13);
+            this.label12.Size = new System.Drawing.Size(188, 26);
             this.label12.TabIndex = 36;
-            this.label12.Text = "Biceps";
+            this.label12.Text = "Discussion improves my interest and success in the course";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(311, 248);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(34, 13);
+            this.label13.Size = new System.Drawing.Size(98, 13);
             this.label13.TabIndex = 35;
-            this.label13.Text = "Ankle";
+            this.label13.Text = "Listening in classes";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(311, 220);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(32, 13);
+            this.label14.Size = new System.Drawing.Size(118, 13);
             this.label14.TabIndex = 34;
-            this.label14.Text = "Knee";
+            this.label14.Text = "Taking notes in classes";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(311, 193);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(34, 13);
+            this.label15.Size = new System.Drawing.Size(154, 13);
             this.label15.TabIndex = 33;
-            this.label15.Text = "Thigh";
+            this.label15.Text = "Preparation to midterm exams 2";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(311, 166);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(23, 13);
+            this.label16.Size = new System.Drawing.Size(154, 13);
             this.label16.TabIndex = 32;
-            this.label16.Text = "Hip";
+            this.label16.Text = "Preparation to midterm exams 1";
             // 
             // density
             // 
@@ -409,14 +405,14 @@
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.density);
-            this.Controls.Add(this.forearm);
-            this.Controls.Add(this.biceps);
-            this.Controls.Add(this.ankle);
-            this.Controls.Add(this.knee);
-            this.Controls.Add(this.thigh);
-            this.Controls.Add(this.hip);
+            this.Controls.Add(this.grade);
+            this.Controls.Add(this.interest);
+            this.Controls.Add(this.listen);
+            this.Controls.Add(this.notes);
+            this.Controls.Add(this.mid2);
+            this.Controls.Add(this.mid1);
             this.Controls.Add(this.age);
-            this.Controls.Add(this.abdomen);
+            this.Controls.Add(this.attendance);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.clear);
             this.Controls.Add(this.label8);
@@ -425,13 +421,13 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.chest);
-            this.Controls.Add(this.neck);
-            this.Controls.Add(this.height);
+            this.Controls.Add(this.sci);
+            this.Controls.Add(this.nonsci);
+            this.Controls.Add(this.study);
             this.Controls.Add(this.output);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.weight);
+            this.Controls.Add(this.scholar);
             this.Controls.Add(this.sex);
             this.Controls.Add(this.epochs);
             this.Controls.Add(this.test);
@@ -453,23 +449,23 @@
         private System.Windows.Forms.Button test;
         private System.Windows.Forms.TextBox epochs;
         private System.Windows.Forms.TextBox sex;
-        private System.Windows.Forms.TextBox weight;
+        private System.Windows.Forms.TextBox scholar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label output;
-        private System.Windows.Forms.TextBox height;
+        private System.Windows.Forms.TextBox study;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button clear;
         private System.IO.FileSystemWatcher fileSystemWatcher1;
-        private System.Windows.Forms.TextBox abdomen;
+        private System.Windows.Forms.TextBox attendance;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox chest;
-        private System.Windows.Forms.TextBox neck;
+        private System.Windows.Forms.TextBox sci;
+        private System.Windows.Forms.TextBox nonsci;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem chooseFileToolStripMenuItem;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
@@ -480,12 +476,12 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label density;
-        private System.Windows.Forms.TextBox forearm;
-        private System.Windows.Forms.TextBox biceps;
-        private System.Windows.Forms.TextBox ankle;
-        private System.Windows.Forms.TextBox knee;
-        private System.Windows.Forms.TextBox thigh;
-        private System.Windows.Forms.TextBox hip;
+        private System.Windows.Forms.TextBox grade;
+        private System.Windows.Forms.TextBox interest;
+        private System.Windows.Forms.TextBox listen;
+        private System.Windows.Forms.TextBox notes;
+        private System.Windows.Forms.TextBox mid2;
+        private System.Windows.Forms.TextBox mid1;
         private System.Windows.Forms.TextBox age;
     }
 }

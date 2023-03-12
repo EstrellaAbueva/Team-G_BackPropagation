@@ -69,17 +69,17 @@ namespace Team_G_BackPropagation
         {
             nn.setInputs(0, Convert.ToDouble(age.Text));
             nn.setInputs(1, Convert.ToDouble(sex.Text));
-            nn.setInputs(2, Convert.ToDouble(weight.Text));
-            nn.setInputs(3, Convert.ToDouble(height.Text));
-            nn.setInputs(4, Convert.ToDouble(neck.Text));
-            nn.setInputs(5, Convert.ToDouble(chest.Text));
-            nn.setInputs(6, Convert.ToDouble(abdomen.Text));
-            nn.setInputs(7, Convert.ToDouble(hip.Text));
-            nn.setInputs(8, Convert.ToDouble(thigh.Text));
-            nn.setInputs(9, Convert.ToDouble(knee.Text));
-            nn.setInputs(10, Convert.ToDouble(ankle.Text));
-            nn.setInputs(11, Convert.ToDouble(biceps.Text));
-            nn.setInputs(12, Convert.ToDouble(forearm.Text));
+            nn.setInputs(2, Convert.ToDouble(scholar.Text));
+            nn.setInputs(3, Convert.ToDouble(study.Text));
+            nn.setInputs(4, Convert.ToDouble(nonsci.Text));
+            nn.setInputs(5, Convert.ToDouble(sci.Text));
+            nn.setInputs(6, Convert.ToDouble(attendance.Text));
+            nn.setInputs(7, Convert.ToDouble(mid1.Text));
+            nn.setInputs(8, Convert.ToDouble(mid2.Text));
+            nn.setInputs(9, Convert.ToDouble(notes.Text));
+            nn.setInputs(10, Convert.ToDouble(listen.Text));
+            nn.setInputs(11, Convert.ToDouble(interest.Text));
+            nn.setInputs(12, Convert.ToDouble(grade.Text));
             nn.setInputs(13, Convert.ToDouble(wrist.Text));
             nn.run();
 
@@ -91,17 +91,17 @@ namespace Team_G_BackPropagation
             epochs.Text = "";
             age.Text = "";
             sex.Text = "";
-            weight.Text = "";
-            height.Text = "";
-            neck.Text = "";
-            chest.Text = "";
-            abdomen.Text = "";
-            hip.Text = "";
-            thigh.Text = "";
-            knee.Text = "";
-            ankle.Text = "";
-            biceps.Text = "";
-            forearm.Text = "";
+            scholar.Text = "";
+            study.Text = "";
+            nonsci.Text = "";
+            sci.Text = "";
+            attendance.Text = "";
+            mid1.Text = "";
+            mid2.Text = "";
+            notes.Text = "";
+            listen.Text = "";
+            interest.Text = "";
+            grade.Text = "";
             wrist.Text = "";
             output.Text = "";
         }
