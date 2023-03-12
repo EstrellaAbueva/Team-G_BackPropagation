@@ -16,6 +16,8 @@ namespace Team_G_BackPropagation
     {
         String fileName;
         NeuralNet nn;
+        Quantify quan;
+
         public Form1()
         {
             InitializeComponent();
@@ -24,7 +26,6 @@ namespace Team_G_BackPropagation
 
         private void train_Click(object sender, EventArgs e)
         {
-
             var data = File.ReadAllLines(fileName)
                     .Skip(1) // Skip header row
                     .Select(row => row.Split(',')) // Split rows by comma
@@ -61,19 +62,39 @@ namespace Team_G_BackPropagation
 
         private void test_Click(object sender, EventArgs e)
         {
-            nn.setInputs(0, Convert.ToDouble(age.Text));
-            nn.setInputs(1, Convert.ToDouble(sex.Text));
-            nn.setInputs(2, Convert.ToDouble(scholar.Text));
-            nn.setInputs(3, Convert.ToDouble(study.Text));
-            nn.setInputs(4, Convert.ToDouble(nonsci.Text));
-            nn.setInputs(5, Convert.ToDouble(sci.Text));
-            nn.setInputs(6, Convert.ToDouble(attendance.Text));
-            nn.setInputs(7, Convert.ToDouble(mid1.Text));
-            nn.setInputs(8, Convert.ToDouble(mid2.Text));
-            nn.setInputs(9, Convert.ToDouble(notes.Text));
-            nn.setInputs(10, Convert.ToDouble(listen.Text));
-            nn.setInputs(11, Convert.ToDouble(interest.Text));
-            nn.setInputs(12, Convert.ToDouble(grade.Text));
+            double ages, sexs, scholars, studies, nonscis, scis, attendances, mids1, mids2, note, listens, interests, grades;
+            ages = Convert.ToDouble(age.Text);
+            sexs = Convert.ToDouble(sex.Text);
+            scholars = Convert.ToDouble(scholar.Text);
+            studies = Convert.ToDouble(study.Text);
+            nonscis = Convert.ToDouble(nonsci.Text);
+            scis = Convert.ToDouble(sci.Text);
+            attendances = Convert.ToDouble(attendance.Text);
+            mids1 = Convert.ToDouble(mid1.Text);
+            mids2 = Convert.ToDouble(mid2.Text);
+            note = Convert.ToDouble(notes.Text);
+            listens = Convert.ToDouble(listen.Text);
+            interests = Convert.ToDouble(interest.Text);
+            grades = Convert.ToDouble(grade.Text);
+
+            quan = new Quantify();
+
+            double[] array = new double[13];
+            array = quan.Equivalent(ages, sexs, scholars, studies, nonscis, scis, attendances, mids1, mids2, note, listens, interests, grades);
+
+            nn.setInputs(0, array[0]);
+            nn.setInputs(1, array[1]);
+            nn.setInputs(2, array[2]);
+            nn.setInputs(3, array[3]);
+            nn.setInputs(4, array[4]);
+            nn.setInputs(5, array[5]);
+            nn.setInputs(6, array[6]);
+            nn.setInputs(7, array[7]);
+            nn.setInputs(8, array[8]);
+            nn.setInputs(9, array[9]);
+            nn.setInputs(10, array[10]);
+            nn.setInputs(11, array[11]);
+            nn.setInputs(12, array[12]);
             nn.run();
 
             var value = nn.getOuputData(0);
