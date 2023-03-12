@@ -82,7 +82,7 @@
             // 
             // test
             // 
-            this.test.Location = new System.Drawing.Point(334, 473);
+            this.test.Location = new System.Drawing.Point(355, 470);
             this.test.Name = "test";
             this.test.Size = new System.Drawing.Size(110, 40);
             this.test.TabIndex = 2;
@@ -137,7 +137,7 @@
             // 
             this.output.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.output.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.output.Location = new System.Drawing.Point(158, 395);
+            this.output.Location = new System.Drawing.Point(179, 392);
             this.output.Name = "output";
             this.output.Size = new System.Drawing.Size(286, 61);
             this.output.TabIndex = 8;
@@ -182,7 +182,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(155, 365);
+            this.label8.Location = new System.Drawing.Point(176, 362);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(245, 18);
             this.label8.TabIndex = 17;
@@ -190,7 +190,7 @@
             // 
             // clear
             // 
-            this.clear.Location = new System.Drawing.Point(158, 472);
+            this.clear.Location = new System.Drawing.Point(179, 469);
             this.clear.Name = "clear";
             this.clear.Size = new System.Drawing.Size(110, 41);
             this.clear.TabIndex = 18;
