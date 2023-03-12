@@ -10,9 +10,6 @@ namespace Team_G_BackPropagation
 {
     public class Quantify
     {
-        double ages, sexs, scholars, studies, nonscis, scis, attendances, mids1, mids2, note, listens, interests, grades;
-        
-        //getters and setters
         public Quantify() { }
 
         public double[] Equivalent(double ages, double sexs, double scholars, double studies, double nonscis, double scis, double attendances, double mids1, double mids2, double note, double listens, double interests, double grades)
