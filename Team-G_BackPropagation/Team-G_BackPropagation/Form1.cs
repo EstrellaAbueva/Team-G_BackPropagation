@@ -78,24 +78,22 @@ namespace Team_G_BackPropagation
 
             var value = nn.getOuputData(0);
 
-            if (value == 0 || value < 0.33)
+            if (value < 0.33)
             {
-                output.Text = "Grade Category: BAD!\n" + nn.getOuputData(0).ToString();
+                output.Text = "BAD!\n\n" + nn.getOuputData(0).ToString();
             }
-            else if(value == 0.33 || value < 0.66)
+            else if(value < 0.66)
             {
-                output.Text = "Grade Category: GOOD!\n" + nn.getOuputData(0).ToString();
+                output.Text = "GOOD!\n\n" + nn.getOuputData(0).ToString();
             }
-            else if(value == 0.66 || value < 1)
+            else if(value < 1)
             {
-                output.Text = "Grade Category: VERY GOOD!\n" + nn.getOuputData(0).ToString();
+                output.Text = "VERY GOOD!\n\n" + nn.getOuputData(0).ToString();
             }
             else
             {
-                output.Text = "Grade Category: EXCELLENT!\n" + nn.getOuputData(0).ToString();
+                output.Text = "EXCELLENT!\n\n" + nn.getOuputData(0).ToString();
             }
-
-            
         }
 
         private void clear_Click(object sender, EventArgs e)
