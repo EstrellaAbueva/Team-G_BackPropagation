@@ -67,8 +67,8 @@ namespace Team_G_BackPropagation
 
         private void test_Click(object sender, EventArgs e)
         {
-            nn.setInputs(0, Convert.ToDouble(dens.Text));
-            nn.setInputs(1, Convert.ToDouble(age.Text));
+            nn.setInputs(0, Convert.ToDouble(age.Text));
+            nn.setInputs(1, Convert.ToDouble(sex.Text));
             nn.setInputs(2, Convert.ToDouble(weight.Text));
             nn.setInputs(3, Convert.ToDouble(height.Text));
             nn.setInputs(4, Convert.ToDouble(neck.Text));
@@ -89,8 +89,8 @@ namespace Team_G_BackPropagation
         private void clear_Click(object sender, EventArgs e)
         {
             epochs.Text = "";
-            dens.Text = "";
             age.Text = "";
+            sex.Text = "";
             weight.Text = "";
             height.Text = "";
             neck.Text = "";
