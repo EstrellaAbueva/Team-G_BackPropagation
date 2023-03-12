@@ -19,6 +19,7 @@ namespace Team_G_BackPropagation
         public Form1()
         {
             InitializeComponent();
+            nn = new NeuralNet(13, 10, 1);
         }
 
         private void train_Click(object sender, EventArgs e)
@@ -33,12 +34,6 @@ namespace Team_G_BackPropagation
                         Output = float.Parse(row.Last())
                     })
                     .ToArray();
-
-            // Create neural network
-            var numInputs = data.First().Inputs.Length;
-            var numOutputs = 1;
-            var numHidden = 10; // Adjust as needed
-            nn = new NeuralNet(numInputs, numHidden, numOutputs);
 
             for (int i = 0; i < Convert.ToInt32(epochs.Text); i++)
             {
