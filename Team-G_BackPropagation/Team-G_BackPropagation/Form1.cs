@@ -76,7 +76,26 @@ namespace Team_G_BackPropagation
             nn.setInputs(12, Convert.ToDouble(grade.Text));
             nn.run();
 
-            output.Text = nn.getOuputData(0).ToString();
+            var value = nn.getOuputData(0);
+
+            if (value == 0)
+            {
+                output.Text = "Grade Category: BAD!\n" + nn.getOuputData(0).ToString();
+            }
+            else if(value > 0 || value < 0.33)
+            {
+                output.Text = "Grade Category: GOOD!\n" + nn.getOuputData(0).ToString();
+            }
+            else if(value > 0.33 || value < 0.66)
+            {
+                output.Text = "Grade Category: VERY GOOD!\n" + nn.getOuputData(0).ToString();
+            }
+            else
+            {
+                output.Text = "Grade Category: EXCELLENT!\n" + nn.getOuputData(0).ToString();
+            }
+
+            
         }
 
         private void clear_Click(object sender, EventArgs e)
