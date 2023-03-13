@@ -120,6 +120,22 @@
   <metadata name="fileSystemWatcher1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>132, 17</value>
   </metadata>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Student Age (1: 18-21, 2: 22-25, 3: above 26)
+Sex (1: female, 2: male)
+Scholarship type: (1: None, 2: 25%, 3: 50%, 4: 75%, 5: Full)
+Weekly study hours: (1: None, 2: &lt;5 hours, 3: 6-10 hours, 4: 11-20 hours, 5: more than 20 hours)
+Reading frequency (non-scientific books/journals): (1: None, 2: Sometimes, 3: Often)
+Reading frequency (scientific books/journals): (1: None, 2: Sometimes, 3: Often)
+Attendance to classes (1: always, 2: sometimes, 3: never)
+Preparation to midterm exams 1: (1: alone, 2: with friends, 3: not applicable)
+Preparation to midterm exams 2: (1: closest date to the exam, 2: regularly during the semester, 3: never)
+Taking notes in classes: (1: never, 2: sometimes, 3: always)
+Listening in classes: (1: never, 2: sometimes, 3: always)
+Discussion improves my interest and success in the course: (1: never, 2: sometimes, 3: always)
+Cumulative grade point average in the last semester (/4.00): (1: &lt;2.00, 2: 2.00-2.49, 3: 2.50-2.99, 4: 3.00-3.49, 5: above 3.49)
+OUTPUT Grade (0: Fail, 1: DD, 2: DC, 3: CC, 4: CB, 5: BB, 6: BA, 7: AA)</value>
+  </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>291, 17</value>
   </metadata>
