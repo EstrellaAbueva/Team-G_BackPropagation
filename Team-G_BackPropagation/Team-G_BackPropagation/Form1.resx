@@ -121,7 +121,8 @@
     <value>132, 17</value>
   </metadata>
   <data name="label9.Text" xml:space="preserve">
-    <value>Student Age (1: 18-21, 2: 22-25, 3: above 26)
+    <value>Legend:
+Student Age (1: 18-21, 2: 22-25, 3: above 26)
 Sex (1: female, 2: male)
 Scholarship type: (1: None, 2: 25%, 3: 50%, 4: 75%, 5: Full)
 Weekly study hours: (1: None, 2: &lt;5 hours, 3: 6-10 hours, 4: 11-20 hours, 5: more than 20 hours)
