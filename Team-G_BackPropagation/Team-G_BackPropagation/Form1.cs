@@ -107,7 +107,7 @@ namespace Team_G_BackPropagation
             {
                 output.Text = "GOOD!\n\n" + nn.getOuputData(0).ToString();
             }
-            else if(value < 1)
+            else if(value < 0.99)
             {
                 output.Text = "VERY GOOD!\n\n" + nn.getOuputData(0).ToString();
             }
